@@ -1,0 +1,38 @@
+@import url(maincss.css);
+
+#section1 {
+    margin-top: 50px;
+    color: white;
+    background-color: #242424;
+    background: url("../images/workshop.jpg") no-repeat center / cover;
+    min-height: 700px;
+}
+
+#section1 img{
+    padding-top: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section2 {
+    color: white;
+    background-color: #242424;
+    min-height: 1080px;
+}
+
+#section3 {
+    color: black;
+    background-color: inherit;
+    min-height: 1180px;
+}
+
+
+.blockright {
+    float: right;
+    padding-top: 300px;
+    padding-right: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

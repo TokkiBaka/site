@@ -1,0 +1,330 @@
+@import "bootstrap.css";
+* {
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "Mont";
+    src: url(../fonts/Mont-SemiBold.woff2) format("woff2");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(../fonts/BebasNeueRegular.woff2) format("woff2");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter-Regular.woff2) format("woff2");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: "Inter-SemiBold";
+    src: url(../fonts/Inter-SemiBold.woff2) format("woff2");
+    font-weight: 400;
+}
+
+#bebas {
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 200px;
+    padding-bottom: 160px;
+    text-align: left;
+    font-size: 48px;
+}
+
+#bebas2 {
+    font-family: "Bebas Neue", sans-serif;
+    padding-top: 200px;
+    padding-bottom: 190px;
+    text-align: right;
+    font-size: 48px;
+}
+
+#zagfoot {
+    font-family: "Inter-SemiBold", sans-serif;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    text-align: left;
+    font-size: 24px;
+}
+
+#mont{
+    font-family: "Mont", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #F9FAFB;
+    font-size: 18px;
+}
+
+
+.block{
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+}
+
+.sec{
+    background-color: aqua;
+    padding: 0px;
+    text-align: center;
+    height: 100%;
+}
+
+#header{
+    font-size: 16px;
+    min-height: 70px;
+}
+
+header a{
+    text-decoration: none;
+    color:white;
+}
+
+header a:hover{
+    color:#868686;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover{
+    color:#868686;
+}
+
+#menu, #menu li{
+    margin: 0;
+    padding: 0px 25px;
+}
+
+ul#menu li {
+    display:inline-block;
+    text-align: center;
+}
+
+.navbar{
+    background-color: black;
+    min-height: 70px;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+#prof, #prof li{
+    margin: 0;
+}
+
+ul#prof li {
+    align-items: right;
+    display:inline-block;
+    text-align: center;
+    margin-left: 18px;
+}
+
+.main_image{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    background: url(../images/main1.png) no-repeat center / cover;
+}
+
+IMG.displayed {
+    padding-top: 206px;
+    padding-bottom: 215px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+IMG.blocks {
+    padding-top: 300px;
+    padding-left: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+IMG.blocks2 {
+    position: relative;
+    right: 240px;
+    padding-top: 300px;
+    padding-right: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#custom {
+    min-height: 1080px;
+}
+
+#store {
+    min-height: 1080px;
+}
+
+#about {
+    color: white;
+    background-color: #242424;
+    min-height: 1080px;
+}
+
+.textst {
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    line-height: 115%;
+    letter-spacing: 6.5%;
+    padding-bottom: 12px;
+}
+
+.st2 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 24px;
+}
+
+.st3 {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #F1F1F1;
+}
+
+
+.button1 {
+    position: relative;
+    top: 50px;
+    font-family: "Mont";
+    background-color: black;
+    border: solid 2px black;
+    color: white;
+    padding: 15px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    float: right;
+}
+
+.whites {
+    background-color: white;
+    border: solid 2px white;
+    color: black;
+}
+
+.right1 {
+    float: left;
+}
+
+.button2 {
+    position: relative;
+    top: 50px;
+    right: 20px;
+    font-family: "Mont";
+    background-color: #F9FAFB;
+    border: solid 2px #F9FAFB;
+    color: #868686;
+    padding: 15px 43px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    float: right;
+}
+
+.button1:hover {
+    background-color: #F9FAFB;
+    color: black;
+}
+
+.button2:hover {
+    border: solid 2px black;
+    background-color: #F9FAFB;
+    color: black;
+}
+
+#techosmotr {
+    color: white;
+    background: url(../images/inputnum.jpg) no-repeat center / cover;
+    align-items: center;
+    min-height: 920px;
+}
+
+input[type=text] {
+    float: inherit;
+    text-align: center;
+    font-family: "Bebas Neue";
+    letter-spacing: 0.3em;
+    font-size: 48px;
+    height: 66px;
+    width: 650px;
+    padding: 12px 20px;
+    background-color: #F1F1F1;
+    border: 2px solid gray;
+    border-radius: 0px;
+}
+
+input[type=text]:focus {
+    background-color: white;
+    outline: none;
+    border: 3px solid #555;
+}
+
+.too {
+    float: initial;
+    top: -12px;
+    margin-left: -50px;
+    padding: 17px 43px;
+    font-size: 18px;
+}
+
+.endpage {
+    color: white;
+    background-color: black;
+    min-height: 480px;
+}
+
+#foottex, #foottex li{
+    font-family: "Inter";
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+ul#foottex li {
+    text-align: left;
+}
+
+.endimage {
+    padding-top: 60px;
+    float: right;
+}
+
+.rectangle {
+    width: 100%;
+    border: none;
+    height: 0.5px;
+    background: #F1F1F1;
+}
+
+.blackcolor {
+    background: black;
+    margin-bottom: 30px;
+}
+
+.graycolor {
+    background: #E2E2E2;
+    margin-bottom: 30px;
+}

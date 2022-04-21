@@ -1,0 +1,140 @@
+#dannie{
+    margin-top: 150px;
+}
+
+.block2{
+    padding: 0px;
+    background-color: aqua;
+    text-align: center;
+    height: 100%;
+}
+
+.zag1{
+    font-family: "Bebas Neue", sans-serif;
+    padding-bottom: 50px;
+    text-align: left;
+    font-size: 36px;
+}
+
+.zag2{
+    font-family: "Mont", sans-serif;
+    margin-top: 50px;
+    padding-bottom: 53px;
+    text-align: left;
+    font-size: 36px;
+}
+
+#pokupki a{
+    text-decoration: none;
+}
+
+.st4 {
+    font-family: "Bebas Neue";
+    margin-left: 20px;
+    font-size: 30px;
+    color: black;
+}
+
+.st5 {
+    font-family: "Mont";
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.st6 {
+    font-family: "Mont";
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: gray;
+}
+
+.st8 {
+    font-family: "Mont", sans-serif;
+    text-align: left;
+    font-size: 18px;
+}
+
+.st9 {
+    font-family: "Mont", sans-serif;
+    text-align: left;
+    font-size: 18px;
+}
+
+.bottomcard {
+    margin-top: 85px;
+}
+
+.centercard {
+    text-align: center;
+}
+
+
+.st7 {
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 18px;
+}
+
+.lot{
+    background-color: white;
+    border: solid 2px white;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+
+
+.lot img{
+    max-width: 261px;
+    max-height: 260px;
+}
+
+.lot p{
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+
+.lot:hover{
+    border: solid 2px rgb(255, 255, 255);
+    box-shadow: 0 5px 20px -6px rgba(0,0,0,0.5);
+}
+
+#karti {
+    margin-top: 20px;
+    min-height: 370px;
+}
+
+.card{
+    margin-left: 10px;
+    background-color: #EFEFEF;
+    border: solid 2px #EFEFEF;
+    padding: 15px;
+    width: 400px;
+    height: 180px;
+}
+
+.card a{
+    color: black;
+    text-decoration: none;
+}
+
+.add{
+    background-color: inherit;
+    border: solid 5px gray;
+    text-align: center;
+}
+
+.add img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:hover{
+    box-shadow: 0 5px 20px -6px rgba(0,0,0,0.5);
+}
